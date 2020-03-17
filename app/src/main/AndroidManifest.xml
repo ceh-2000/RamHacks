@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.clareheinbaugh.ramhacks">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sosms_clear"
+        android:label="SOS-SMS"
+        android:roundIcon="@drawable/sosms_clear"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".Emergency">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Users" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Reports" />
+        <activity android:name=".history"></activity>
+
+        <service
+            android:name=".service"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>

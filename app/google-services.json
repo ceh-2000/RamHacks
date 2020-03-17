@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "198781088826",
+    "firebase_url": "https://ramhacks2019-131a6.firebaseio.com",
+    "project_id": "ramhacks2019-131a6",
+    "storage_bucket": "ramhacks2019-131a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198781088826:android:d5394cdc4e20faf1823103",
+        "android_client_info": {
+          "package_name": "com.example.clareheinbaugh.ramhacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198781088826-iptt2k505gcupbash98io88s4nosdgg7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.clareheinbaugh.ramhacks",
+            "certificate_hash": "68e32f4a12ef124753221736257c6596d55927b0"
+          }
+        },
+        {
+          "client_id": "198781088826-44fuitv1d81ueqsbm804gmev65doq6n3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBintvOynlt_9FaIIgFt_r9untAq5U3z68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198781088826-44fuitv1d81ueqsbm804gmev65doq6n3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

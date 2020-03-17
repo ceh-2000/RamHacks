@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="horizontal" >
+    <Button
+        android:id="@+id/users"
+        android:layout_weight="1"
+        android:layout_width ="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/users"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/emergency"
+        android:layout_weight="1"
+        android:layout_width ="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/emergency"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorPrimaryDark"
+
+        />
+    <Button
+        android:id="@+id/home"
+        android:layout_weight="1"
+        android:layout_width ="0dp"
+        android:layout_height="match_parent"
+        android:text="Info"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+
+        />
+    <Button
+        android:id="@+id/reports"
+        android:layout_weight="1"
+        android:layout_width ="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/report"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:visibility="gone"
+
+
+        />
+    <Button
+        android:id="@+id/history"
+        android:layout_weight="1"
+        android:layout_width ="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/history"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:visibility="gone"
+        />
+</LinearLayout>
